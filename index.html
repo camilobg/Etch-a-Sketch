@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .topBanner{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 5px;
+    }
+    .container{
+        height: 1500px;
+        width: 1500px;
+        background-color: aquamarine;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: start;
+    }
+
+    .grid{
+        border: red 0px solid;
+        transition: all 0.1s;
+    }
+
+    .grid:hover{
+        border: blue 0px solid;
+    }
+</style>
+<body>
+    <label class="topBanner">
+        Ingrese el tamaño de la grila: 
+        <input type="number" value="3">
+        <button>Enviar</button>
+    </label>
+    <div class="container">
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
